@@ -1,0 +1,30 @@
+.SearchEngine .type-city-form {
+	border: 1px solid #d887d1cc;
+	border-radius: 4px;
+	margin: 0 0 0px 10px;
+	width: 100%;
+	padding-left: 8px;
+}
+
+.SearchEngine .type-city-form:focus-within {
+	background: #dfaadacc;
+	color: black;
+	outline: none;
+}
+.SearchEngine .type-city-form,
+.SearchEngine .search-btn {
+	height: 40px;
+}
+.SearchEngine .search-btn {
+	color: #ad1fa2cc;
+	font-weight: bold;
+	background-color: white;
+	border: 1px solid #d887d1cc;
+	border-radius: 4px;
+	width: 100%;
+	margin-left: -10px;
+}
+
+.SearchEngine .search-btn:hover {
+	background-color: #d887d1cc;
+}
