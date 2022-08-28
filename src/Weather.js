@@ -1,8 +1,9 @@
 import React from "react";
 import SearchEngine from "./SearchEngine";
 import "./Weather.css";
+import axios from "axios";
 
-export default function Weather() {
+export default function Weather(props) {
 	let weatherData = {
 		city: "Kyiv",
 		temperature: 27,
