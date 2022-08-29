@@ -19,6 +19,7 @@ export default function Weather() {
 			<button className="current-geo-btn">
 				<strong>Current geolocation</strong>
 			</button>
+
 			<SearchEngine />
 
 			<div className="row base-temp-block">
